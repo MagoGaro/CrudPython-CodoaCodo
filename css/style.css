@@ -1,0 +1,26 @@
+.loguito{
+    width: 70%;
+}
+.contenido{
+    margin-top: 4rem;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.prese {
+    text-align: center;
+    width: 25%;
+}
+.fotoperfil{
+    margin: 2px auto;
+    width: 70%;
+    border-radius: 50%;
+}
+.fa-linkedin{
+    color: #0072b1;
+}
+
+.fa-instagram{
+    color: #C13584;
+}
