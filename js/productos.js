@@ -4,7 +4,7 @@ createApp({
     data(){
         return{
             productos: [],
-            url: 'http://magogaro.pythonanywhere.com/productos',
+            url: 'https://magogaro.pythonanywhere.com/productos',
             cargando: true,
             error: false
         }
