@@ -30,6 +30,7 @@ createApp({
             fetch(url, options)
             .then(res=> res.json())
             .then(data => {
+                alert("Producto  Eliminado Exitosamente");
                 location.reload();
             }).catch(err => console.error(err))
         }
