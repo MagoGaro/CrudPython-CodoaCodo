@@ -6,10 +6,10 @@ function convertDateFormat(string) {
     console.log(info2);
     let n = 2;
     
-    return info[2].substring(info[2].length-n) + '/' + info[1] + '/' + info[0] + ' ' + info2[0].substring(info2[0].length-n)+ ':'  + info2[1] + ':' + info2[2];
+    return info[2].substring(0,2) + '/' + info[1] + '/' + info[0] + ' ' + info2[0].substring(info2[0].length-n)+ ':'  + info2[1] + ':' + info2[2];
   }
 
-fetch('https://magogaro.pythonanywhere.com/log')
+fetch('http://127.0.0.1:5000/log')
 .then(res=> res.json())
 .then(data =>{
     console.log(data);
