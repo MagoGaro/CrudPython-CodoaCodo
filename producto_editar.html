@@ -17,30 +17,31 @@
   <navegacion></navegacion>
 
   <main>
-    <div class="container">
-      <form  style="background-color: aliceblue;margin:10px auto ; width: 400px; padding: 20px;">
-        <h1>Edición de producto</h1>
+    <div class="cuerpito">
+      <form class="form">
+        <h1 class="formt">Edición de producto</h1>
+        <div class="formc">
         <div class="mb-3">
           
           <input type="text" name="id" id="id" hidden disabled>
         </div>
-        <div class="mb-3">
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="nombre">
+        <div class="mb-3 formi">
+          <label class="fl" for="nombre">Nombre</label>
+          <input class="fi" type="text" name="nombre" id="nombre">
         </div>
-        <div class="mb-3">
-          <label for="precio">Precio</label>
-          <input type="number" name="precio" id="precio">
+        <div class="mb-3 formi">
+          <label class="fl" for="precio">Precio</label>
+          <input class="fi" type="number" name="precio" id="precio">
         </div>
-        <div class="mb-3">
-          <label for="stock">Stock</label>
-          <input type="number" name="stock" id="stock">
+        <div class="mb-3 formi">
+          <label class="fl" for="stock">Stock</label>
+          <input class="fi" type="number" name="stock" id="stock">
         </div>
-        <div class="mb-3">
-          <label for="imagen">Imagen</label>
-          <input type="text" name="imagen" id="imagen">
+        <div class="mb-3 formi">
+          <label class="fl" for="imagen">Imagen</label>
+          <input class="fi" type="text" name="imagen" id="imagen">
         </div>
-       
+      </div>
           <button type="button" class="btn btn-success" onclick="modificar()">Actualizar</button>
       </form>
     </div>

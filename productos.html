@@ -9,6 +9,10 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+   <!-- Iconos Fontawesome -->
+   <script src="https://kit.fontawesome.com/216116f202.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -31,8 +35,8 @@
             </div>
           </div>
         </section>
-        <section v-else>
-          <a class="btn btn-success" href="producto_nuevo.html">Agregar Producto</a>
+        <section class="innf" v-else>
+          <a class="btn btn-info" href="producto_nuevo.html">Agregar Producto</a>
 
       <div class="table-responsive" style="margin-top: 1rem;">
         <table class="table table-bordered">
@@ -55,10 +59,11 @@
               <td>
                 <img :src="p.imagen" :alt="p.nombre" width="80" height="80">
               </td>
-              <td>
-                <a class="btn btn-primary" :href="'producto_editar.html?id='+p.id+'&nombre='+p.nombre+'&precio='+p.precio+'&stock='+p.stock+'&imagen='+p.imagen">Editar</a>
-
-                <button type="button" class="btn btn-danger" v-on:click="eliminar(p.id)">Eliminar</button>
+              <td class="acciones">
+                <a :href="'producto_editar.html?id='+p.id+'&nombre='+p.nombre+'&precio='+p.precio+'&stock='+p.stock+'&imagen='+p.imagen"><i class="fa-regular fa-pen-to-square"></i></a>
+                
+                <i class="fa-solid fa-trash-can" v-on:click="eliminar(p.id)"></i>
+                
               </td>
             </tr>
             
