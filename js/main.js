@@ -1,4 +1,4 @@
-document.getElementById('header').innerHTML = `
+/*document.getElementById('header').innerHTML = `
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
 <div class="container">
 <a class="navbar-brand" href="index.html"><img class="loguito" src="./img/logo-fix.png"></a>
@@ -11,12 +11,15 @@ document.getElementById('header').innerHTML = `
     <li class="nav-item">
       <a class="nav-link active" href="index.html" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="catalogo.html" aria-current="page">Catalogo <span class="visually-hidden">(current)</span></a>
+    </li>
    
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CRUD</a>
+      <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin</a>
       <div class="dropdown-menu" aria-labelledby="dropdownId">
         <a class="dropdown-item" href="productos.html">Productos</a>
-        <a class="dropdown-item" href="#">#</a>
+        <a class="dropdown-item" href="log_delete.html">Log</a>
       </div>
     </li>
   </ul>
@@ -27,5 +30,4 @@ document.getElementById('header').innerHTML = `
 </div>
 </div>
 </nav>
-`
-
+`*/

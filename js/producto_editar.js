@@ -26,7 +26,7 @@ function modificar(){
         imagen: i
     };
 
-    let url= 'https://magogaro.pythonanywhere.com/productos/'+id;
+    let url= 'http://127.0.0.1:5000/productos/'+id;
     let options = {
         body: JSON.stringify(producto),
         method: 'PUT',

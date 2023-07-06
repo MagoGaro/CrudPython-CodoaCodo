@@ -3,6 +3,7 @@
 
 <head>
   <title>Home</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -13,12 +14,10 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-  <header id="header">
+<body >
+  <div id="app">
+  <navegacion></navegacion>
     
-    
-  </header>
-
   <main>
     <section class="container contenido">
 
@@ -30,7 +29,7 @@
           
         </div>
       
-        <div class="card-footer text-body-secondary">
+        <div class="card-footer text-body-secondary ff">
           <a href="https://www.linkedin.com/in/camila-nahir-cohan-0a7031171/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
           <a href="https://www.instagram.com/caamicohan/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </div>
@@ -39,7 +38,7 @@
 
       <article class="card prese">
         <h3 class="card-title card-header">Facundo Cremona</h3>
-        <img  src="./img/facu.jpeg" alt="FotoFacundo" class="card-img-top fotoperfil facu">
+        <img  src="./img/facu.jpeg" alt="FotoFacundo" class="card-img-top fotoperfil">
         <div class="card-body">
           
           <p class="card-text">Policía de la provincia de Buenos Aires con 7 años de servicio, estudiante de programación, 34 años de edad.</p>
@@ -70,11 +69,8 @@
 
   </main>
 
-  <footer>
-
-
-  </footer>
-
+ <piesito></piesito>
+</div>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
@@ -83,10 +79,13 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
 
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
    <!-- Iconos Fontawesome -->
    <script src="https://kit.fontawesome.com/216116f202.js" crossorigin="anonymous"></script>
   
-  <script src="./js/main.js"></script>
+  <!--<script src="./js/main.js"></script>-->
+  <script src="./js/productos.js"></script>
 
 </body>
 

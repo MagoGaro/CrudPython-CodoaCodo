@@ -11,7 +11,7 @@ function guardar(){
         imagen: i
     };
 
-    let url= 'https://magogaro.pythonanywhere.com/productos'
+    let url= 'http://127.0.0.1:5000/productos'
     let options = {
         body: JSON.stringify(producto),
         method: 'POST',
