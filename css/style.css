@@ -137,7 +137,7 @@ main{
 }
 
 body {
-    background-image: url(/img/rm314-adj-10.jpg);
+    background-image: url(./img/rm314-adj-10.jpg);
     background-position: center;
     background-size: cover;
 }   
