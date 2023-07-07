@@ -34,11 +34,13 @@ main{
 .prese {
     text-align: center;
     width: 25%;
+    background-color: rgba(218, 220, 221, 0.568);
 }
 .fotoperfil{
     margin: 2px auto;
     width: 70%;
     border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
 }
 
 .fa-linkedin{
@@ -69,10 +71,6 @@ main{
     word-spacing: 0.5rem;
 }
 .cuerpito{
-    background-color: #e5e5f7;
-    background-image: radial-gradient(#c657d8 0.5px, transparent 0.5px);
-    background-size: 20px 20px;
-    background-position: 0 0, 10px 10px;
     display: flex;
     min-height: 75vh;
 }
@@ -136,4 +134,18 @@ main{
 
 .innf{
     text-align: center;
+}
+
+body {
+    background-image: url(/img/rm314-adj-10.jpg);
+    background-position: center;
+    background-size: cover;
+}   
+
+table > *{
+    border: 1px solid black;
+}
+
+* {
+    font-family: 'Russo One', sans-serif;
 }
