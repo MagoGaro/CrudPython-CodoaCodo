@@ -1,3 +1,15 @@
+* {
+    font-family: 'Russo One', sans-serif;
+}
+
+table > *{
+    border: 1px solid black;
+}
+body {
+    background-image: url(/img/rm314-adj-10.jpg);
+    background-position: center;
+    background-size: cover;
+}   
 main{
     min-height: 80vh;
 }
@@ -134,18 +146,4 @@ main{
 
 .innf{
     text-align: center;
-}
-
-body {
-    background-image: url(/img/rm314-adj-10.jpg);
-    background-position: center;
-    background-size: cover;
-}   
-
-table > *{
-    border: 1px solid black;
-}
-
-* {
-    font-family: 'Russo One', sans-serif;
 }
